@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+#background-color{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 46%;
+    left: 33%;
+    height: 8em;
+    width: 63em;
+    font-size: 16px;
+}
+#secondDiv{
+    text-align: center;
+    position: relative;
+    top: 40%;
+}
+#clickbtn{
+    position: relative;
+    top: 50%;
+    width: 10%;
+    height: 4%;
+    left: 45%;
+    font-size: 30px;
+
+}
